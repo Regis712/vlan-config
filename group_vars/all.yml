@@ -1,0 +1,16 @@
+vlans:
+  - id: 10
+    name: STORAGE
+  - id: 20
+    name: SERVERS
+  - id: 30
+    name: USERS
+
+ntc-training ~/labs/vlan-config (main %) $ tree
+.
+├── group_vars
+│   └── all.yml
+├── inventory
+├── pb_vlans.yml
+└── template
+    └── vlans.j2
